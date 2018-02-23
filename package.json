@@ -1,0 +1,44 @@
+{
+  "name": "@silvermine/chai-strictly-equal",
+  "version": "1.0.0-rc1",
+  "description": "Chai assertion library plugin to add `strictlyEqual` function and disable `equal`",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover --root src --include-all-sources ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'"
+  },
+  "author": "Jeremy Thomerson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvermine/chai-strictly-equal.git"
+  },
+  "keywords": [
+    "chai",
+    "expect",
+    "expect.js",
+    "assertion",
+    "strict",
+    "strictly",
+    "equal",
+    "eql",
+    "equality",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/silvermine/chai-strictly-equal/issues"
+  },
+  "homepage": "https://github.com/silvermine/chai-strictly-equal#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "coveralls": "3.0.0",
+    "eslint": "4.18.1",
+    "eslint-config-silvermine": "1.4.0",
+    "grunt": "1.0.2",
+    "grunt-eslint": "20.1.0",
+    "istanbul": "0.4.5",
+    "mocha": "5.0.1",
+    "mocha-lcov-reporter": "1.3.0",
+    "rewire": "3.0.2",
+    "sinon": "4.4.0"
+  }
+}
