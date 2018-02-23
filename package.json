@@ -1,6 +1,6 @@
 {
   "name": "@silvermine/chai-strictly-equal",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0",
   "description": "Chai assertion library plugin to add `strictlyEqual` function and disable `equal`",
   "main": "src/index.js",
   "scripts": {
