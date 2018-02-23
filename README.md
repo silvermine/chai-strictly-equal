@@ -23,6 +23,18 @@ and would be more difficult to add. So, for any Silvermine codebases where we ar
 our codebase.
 
 
+## How do I use it?
+
+```
+var chai = require('chai');
+
+chai.use(require('@silvermine/chai-strictly-equal'));
+```
+
+That's all there is to it. Then your `.equal` calls will throw an error, indicating that
+you should replace them with `.eql` or `.strictlyEqual`.
+
+
 ## How do I contribute?
 
 We genuinely appreciate external contributions. See [our extensive
