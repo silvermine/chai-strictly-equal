@@ -1,9 +1,9 @@
 # Silvermine Chai Strictly Equal Plugin
 
-[![Build Status](https://travis-ci.org/silvermine/chai-strictly-equal.png?branch=master)](https://travis-ci.org/silvermine/chai-strictly-equal)
+[![Build Status](https://travis-ci.org/silvermine/chai-strictly-equal.svg?branch=master)](https://travis-ci.org/silvermine/chai-strictly-equal)
 [![Coverage Status](https://coveralls.io/repos/github/silvermine/chai-strictly-equal/badge.svg?branch=master)](https://coveralls.io/github/silvermine/chai-strictly-equal?branch=master)
-[![Dependency Status](https://david-dm.org/silvermine/chai-strictly-equal.png)](https://david-dm.org/silvermine/chai-strictly-equal)
-[![Dev Dependency Status](https://david-dm.org/silvermine/chai-strictly-equal/dev-status.png)](https://david-dm.org/silvermine/chai-strictly-equal#info=devDependencies&view=table)
+[![Dependency Status](https://david-dm.org/silvermine/chai-strictly-equal.svg)](https://david-dm.org/silvermine/chai-strictly-equal)
+[![Dev Dependency Status](https://david-dm.org/silvermine/chai-strictly-equal/dev-status.svg)](https://david-dm.org/silvermine/chai-strictly-equal#info=devDependencies&view=table)
 
 
 ## What is it?
