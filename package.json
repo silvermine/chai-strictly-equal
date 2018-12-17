@@ -29,14 +29,14 @@
   },
   "homepage": "https://github.com/silvermine/chai-strictly-equal#readme",
   "devDependencies": {
+    "@silvermine/eslint-config": "1.5.0",
     "chai": "4.1.2",
-    "coveralls": "3.0.0",
+    "coveralls": "3.0.2",
     "eslint": "4.18.1",
-    "eslint-config-silvermine": "1.4.0",
-    "grunt": "1.0.2",
+    "grunt": "1.0.3",
     "grunt-eslint": "20.1.0",
     "istanbul": "0.4.5",
-    "mocha": "5.0.1",
+    "mocha": "5.2.0",
     "mocha-lcov-reporter": "1.3.0",
     "rewire": "3.0.2",
     "sinon": "4.4.0"
