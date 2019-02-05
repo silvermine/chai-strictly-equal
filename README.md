@@ -25,10 +25,19 @@ our codebase.
 
 ## How do I use it?
 
-```
+```js
 var chai = require('chai');
 
 chai.use(require('@silvermine/chai-strictly-equal'));
+```
+
+Or, if you are using TypeScript:
+
+```typescript
+import chai from 'chai';
+import enableStrictlyEqual from '@silvermine/chai-strictly-equal';
+
+chai.use(enableStrictlyEqual);
 ```
 
 That's all there is to it. Then your `.equal` calls will throw an error, indicating that
