@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Chai assertion library plugin to add `strictlyEqual` function and disable `equal`",
   "main": "src/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover --root src --include-all-sources ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'"
   },
