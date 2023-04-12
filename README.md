@@ -1,10 +1,7 @@
 # Silvermine Chai Strictly Equal Plugin
 
-[![Build Status](https://travis-ci.org/silvermine/chai-strictly-equal.svg?branch=master)](https://travis-ci.org/silvermine/chai-strictly-equal)
-[![Coverage Status](https://coveralls.io/repos/github/silvermine/chai-strictly-equal/badge.svg?branch=master)](https://coveralls.io/github/silvermine/chai-strictly-equal?branch=master)
-[![Dependency Status](https://david-dm.org/silvermine/chai-strictly-equal.svg)](https://david-dm.org/silvermine/chai-strictly-equal)
-[![Dev Dependency Status](https://david-dm.org/silvermine/chai-strictly-equal/dev-status.svg)](https://david-dm.org/silvermine/chai-strictly-equal#info=devDependencies&view=table)
-
+[![Build Status][github-actions-badge]][github-actions-url]
+[![Coverage Status][coverage-badge]][coveralls-url]
 
 ## What is it?
 
@@ -56,3 +53,7 @@ This software is released under the MIT license. See [the license file](LICENSE)
 details.
 
 [contributing]: https://github.com/silvermine/silvermine-info#contributing
+[github-actions-badge]: https://github.com/silvermine/chai-strictly-equal/actions/workflows/ci.yml/badge.svg?branch=master
+[github-actions-url]: https://github.com/silvermine/chai-strictly-equal/actions/workflows/ci.yml
+[coverage-badge]: https://coveralls.io/repos/github/silvermine/chai-strictly-equal/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/silvermine/chai-strictly-equal?branch=master
