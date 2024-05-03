@@ -6,7 +6,7 @@
   "types": "./types/index.d.ts",
   "scripts": {
     "commitlint": "commitlint --from 936a690",
-    "test": "check-node-version --npm 8.5.5 && ./node_modules/.bin/istanbul cover --root src --include-all-sources ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'",
+    "test": "check-node-version --npm 10.5.0 && ./node_modules/.bin/istanbul cover --root src --include-all-sources ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'",
     "eslint": "eslint .",
     "markdownlint": "markdownlint -c .markdownlint.json '{,!(node_modules)/**/}*.md'",
     "standards": "npm run commitlint && npm run markdownlint && npm run eslint"
